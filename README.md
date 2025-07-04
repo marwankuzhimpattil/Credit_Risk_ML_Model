@@ -1,8 +1,19 @@
-# Credit_Risk_ML_Model
-# 🧠 Credit Risk Modeling using Machine Learning
+# 🧠 Credit Risk Prediction using Machine Learning
 
-A complete machine learning pipeline to predict credit default risk using the German Credit Dataset. Models are trained, evaluated, and explained using SHAP for real-world business insights.
+This project builds a machine learning pipeline to assess the **creditworthiness** of loan applicants using the **German Credit dataset**. It includes preprocessing, model training using multiple classifiers, and explainability using **SHAP**. The project is also equipped with a Streamlit UI and FastAPI API backend — ready for real-world deployment.
 
 ---
 
-## 📂 Project Structure
+## 📌 Project Highlights
+
+- ✅ Model-based imputation for missing financial features
+- 🔍 SHAP Explainability to interpret model predictions
+- 📊 Tried and compared: Random Forest, XGBoost, LightGBM, CatBoost
+- 📈 Feature importance visualization
+- 🧠 Optimized preprocessing pipeline
+- 🎯 Deployment-ready (Streamlit UI + FastAPI API + Docker)
+
+---
+
+## 📁 Project Structure
+
