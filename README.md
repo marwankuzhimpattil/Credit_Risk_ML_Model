@@ -11,7 +11,7 @@ This project builds a machine learning pipeline to assess the **creditworthiness
 - 📊 Tried and compared: Random Forest, XGBoost, LightGBM, CatBoost
 - 📈 Feature importance visualization
 - 🧠 Optimized preprocessing pipeline
-- 🎯 Deployment-ready (Streamlit UI + FastAPI API + Docker)
+- 🎯 Deployment-ready (Streamlit UI)
 
 ---
 
@@ -43,7 +43,6 @@ All models are trained with proper cross-validation and grid search.
 We evaluate them using:
 - Accuracy
 - Precision / Recall
-- AUC-ROC Score
 - Confusion Matrix
 
 ✅ These models predict the likelihood of a customer defaulting on a loan.
@@ -77,23 +76,6 @@ We built a user-friendly **Streamlit app**:
 
 ✅ Business users (loan officers) can interact with the model without writing any code.
 
----
 
-### 🔹 Step 5: FastAPI Backend
 
-We created an API using **FastAPI**:
 
-- `POST /predict` endpoint accepts user input
-- Returns a JSON prediction (0 = good, 1 = bad)
-
-✅ This allows integration with dashboards, mobile apps, or internal systems.
-
----
-
-### 🔹 Step 6: Docker Deployment
-
-You can build and run the entire app using Docker:
-
-```bash
-docker build -t credit-risk-api .
-docker run -p 8000:8000 credit-risk-api
