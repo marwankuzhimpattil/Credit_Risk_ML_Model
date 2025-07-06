@@ -1,6 +1,6 @@
 # 🧠 Credit Risk Prediction using Machine Learning for APLAZO
 
-This project builds a machine learning pipeline to assess the **creditworthiness** of loan applicants using the **German Credit dataset**. It includes preprocessing, model training using multiple classifiers, and explainability using **SHAP**. The project is also equipped with a Streamlit UI and FastAPI API backend — ready for real-world deployment.
+This project builds a machine learning pipeline to assess the **creditworthiness** of loan applicants using the **German Credit dataset**. It includes preprocessing, model training using multiple classifiers, and explainability using **SHAP**. The project is also equipped with a Streamlit UI. — ready for real-world deployment.
 
 ---
 
